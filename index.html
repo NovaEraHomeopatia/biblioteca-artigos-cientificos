@@ -32,6 +32,10 @@
       line-height: 1.4;
     }
 
+    .quebra-mobile {
+      display: none;
+    }
+
     .biblioteca-item {
       background: #ffffff;
       border: 1px solid #dbe3ea;
@@ -75,6 +79,10 @@
         margin-bottom: 20px;
       }
 
+      .quebra-mobile {
+        display: inline;
+      }
+
       .biblioteca-item {
         padding: 13px 14px;
         margin-bottom: 10px;
@@ -95,7 +103,7 @@
 <body>
   <main class="container">
     <h1>Biblioteca para Prescritores</h1>
-    <p class="topo">Material técnico sobre ativos<br>disponíveis na Nova Era.</p>
+    <p class="topo">Material técnico sobre ativos<span class="quebra-mobile"><br></span> disponíveis na Nova Era.</p>
 
     <article class="biblioteca-item">
       <h2><a href="artigos/tendofit-tendinopatias-material-tecnico.html">Tendofit® em tendinopatias: dados clínicos e experimentais descritos em material técnico</a></h2>
